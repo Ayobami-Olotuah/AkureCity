@@ -1,0 +1,213 @@
+body {
+    background: lightgrey;
+    margin: 0;
+    font-family: 'Recursive', sans-serif;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Akurepic.jpg");
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+
+header h1 {
+    margin-top: 0;
+    font-size: 50px;
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 9px black;
+}
+
+header h3 {
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.container {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container h2 {
+    border-bottom: 3px solid black;
+    width: fit-content;
+    padding-bottom: .5em;
+    margin: 15px auto;
+}
+
+.col {
+    margin: 40px 0;
+}
+
+.col h4 {
+    margin: 5px;
+}
+
+.col p {
+    margin-top: 0;
+    padding: 0 10px;
+}
+
+footer {
+    background: lightblue;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer img {
+    width: 150px;
+    border-radius: 15px;
+}
+
+footer h4 {
+    margin: 0;
+}
+
+footer p {
+    margin: 5px;
+}
+
+@media (min-width: 600px) {
+    
+    header h1 {
+        font-size: 60px;
+    }
+    
+    header h3 {
+        font-size: 35px;
+        width: 600px;
+    }
+    
+    .places {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .col {
+        width: 300px;
+        margin: 15px;
+    }
+    
+    .col img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 20px;
+        transition: transform 1s ease-out;
+    }
+    
+    .col img:hover {
+        transform: scale(1.1);
+    }
+    
+    .col h4 {
+        margin: 20px 0;
+        height: 30px;
+    }
+    
+    footer {
+        width: 500px;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+    
+    .guide-info {
+        max-width: 300px;
+    }
+}
+
+/* .container {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container h2 {
+    border-bottom: 3px solid black;
+    width: fit-content;
+    padding-bottom: .5em;
+    margin: 1em auto;
+}
+
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 2em;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.places div {
+    width: 250px;
+    padding: 1em .05em;
+}
+
+.places img {
+    width: 200px;
+    border-radius: 50%;
+    transition: transform 1s ease-in-out;
+}
+
+.places img:hover {
+    transform: scale(1.1)
+}
+
+footer {
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background: lightblue;
+    padding: 1em;
+    justify-content: center;;
+    border-radius: 1em;
+}
+
+footer img {
+    width: 150px;
+    border-radius: 1em;
+    margin-right: 1.5em;
+}
+
+.guide-info {
+    width: 300px;
+}
+
+@media (max-width: 600px) {
+    .places {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding: 1em 0;
+    }
+    header h1 {
+        margin-top: 0;
+        font-size: 35px;
+    }
+
+    header h3 {
+        width: 200px;
+        font-size: 25px;
+    }
+} */
